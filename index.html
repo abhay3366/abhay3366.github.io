@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -18,7 +18,8 @@
 <nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top">
     <div class="container">
       <a class="navbar-brand" href="">
-        <img src="images/logo.png" alt="logo image">
+        <!-- <img src="images/logo.png" alt="logo image"> -->
+        <h2>Abhay</h2>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -26,7 +27,7 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#services">About</a></li>
+          <!-- <li class="nav-item"><a class="nav-link" href="#services">About</a></li> -->
           <li class="nav-item"><a class="nav-link" href="#portfolio">Project</a></li>
           <li class="nav-item"><a class="nav-link" href="#testimonials">TechStack</a></li>
           <!-- <li class="nav-item"><a class="nav-link" href="#faq">faq</a></li> -->
@@ -34,17 +35,21 @@
           <li class="nav-item"><a class="nav-link" href="#contact">contact</a>
           </li>
         </ul>
-        <button type="button" class="rounded-pill btn-rounded">
-          Resume
+        <button type="button" class="rounded-pill btn-rounded" >
+         
+          <a  href="https://drive.google.com/file/d/1lF8IQFU6DwUL6srowdYhn4tf30lr-hZz/view?usp=share_link" download>
+            Resume
+          </a>
           <span>
-          
+              
             <i class="fas fa-download "></i>
           </span>
         </button>
       </div>
     </div>
   </nav>
-
+  
+   <i class="fas fa-download "></i>
 <!-- /////////////////////////////////////////////////////////////////////////////////////////////////
                             START SECTION 2 - THE INTRO SECTION  
 /////////////////////////////////////////////////////////////////////////////////////////////////////-->
@@ -57,24 +62,20 @@
         <h1 class="display-2">
           <span class="display-2--intro">Hey!, I'm Abhay Kant Tiwari</span>
           <span class="display-2--description lh-base">
-            this is a multi-purpose responsive layout created with bootstrap v5. 
-            (here your can place your description text)
+            A self-motivated,hard-working and ambitious Web Developer with proficiency 
+            in HTML,CSS,Javascript,React.1300+ hours of coading and  hand-on experience in developing
+            2 fully functional website
           </span>
         </h1>
-        <button type="button" class="rounded-pill btn-rounded">Get in Touch
-          <span><i class="fas fa-arrow-right"></i></span>
-        </button>
+        
       </div>
       <!-- START THE CONTENT FOR THE VIDEO -->
       <div class="col-md-6 intros text-end">
         <div class="video-box">
-          <img src="images/arts/intro-section-illustration.png" alt="video illutration" class="img-fluid">
-          <a href="#" class="glightbox position-absolute top-50 start-50 translate-middle">
-            <span>
-              <i class="fas fa-play-circle"></i>
-            </span>
-            <span class="border-animation border-animation--border-1"></span>
-            <span class="border-animation border-animation--border-2"></span>
+          <img src="./images/portfolio/Abhaylarge-removebg.png" alt="video illutration" class="img-fluid">
+          <!-- <a href="#" class="glightbox position-absolute top-50 start-50 translate-middle"> -->
+         
+           
           </a>
         </div>
       </div>
@@ -87,56 +88,67 @@
 <!-- //////////////////////////////////////////////////////////////////////////////////////////////
                          START SECTION 4 - THE Project  
 ///////////////////////////////////////////////////////////////////////////////////////////////////-->
-<section id="services" class="services">
+<section id="portfolio" class="portfolio">
   <div class="container">
-    <div class="row text-center">
-      <h1 class="display-3 fw-bold">Our Projects</h1>
-      <div class="heading-line mb-1"></div>
-    </div>
-    
-
-    <div class="row row-cols-1 row-cols-md-2 g-6">
-      <div class="col">
-        <div class="card h-100">
-          <img src="./images/portfolio/myglm.2df321d8b28f90aace7e.jpeg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          </div>
-          <div class="card-footer">
-            <small class="text-muted">Last updated 3 mins ago</small>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-100">
-          <img src="./images/portfolio/proj1.ff0f1c25935312ff814f.jpeg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-          </div>
-          <div class="card-footer">
-            <small class="text-muted">Last updated 3 mins ago</small>
-          </div>
-        </div>
-      </div>
-     
+    <div class="row text-center mt-5">
+      <h1 class="display-3 fw-bold text-capitalize">Our Project</h1>
+      <div class="heading-line"></div>
+      
     </div>
 
 
+    <div class="row">
+      <div class="col-lg-5 col-md-4  text-center shadow p-3 mb-5 bg-white rounded  m-lg-3 ">
+        <div class="portfolio-box ">
+          <img src="./images/portfolio/myglm.2df321d8b28f90aace7e.jpeg" alt="portfolio 1 image" title="portfolio 1 picture" class="img-fluid">
+          <div class="portfolio-info">
+            <div class="caption">
+              <h4>MyGlamm websites</h4>
+            </div>
+          </div>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title ">
+            <img src="./images/portfolio/html.png" width="40px" alt="" srcset="">
+            <img src="./images/portfolio/CSS3_logo.svg.png"  width="40px" alt="" srcset="">
+            <img src="./images/portfolio/javascript-icon-png-23.jpg"  width="40px" alt="" srcset="">
+            <img src="./images/portfolio/git.png" alt="" srcset=" "  width="40px">
+          </h5>
+          <p class="card-text ">This card has supporting text below as a natural lead-in to additional content.This card has supporting text below as a natural lead-in to additional content.</p>
+        </div>
+        <button style="background-color: #CB2DE6; color: white; border:none; padding: 10px;">Check it Out!</button>
+          <button style="background-color: #CB2DE6; color: white; border:none; padding: 10px;"> <a href="https://github.com/guptaneha0111/bewildered-head-3884" style="color: white; text-decoration: none;">Github Link</a></button>
+      </div>
 
-  </div>
+      <div class="col-lg-5 col-md-4 shadow text-center p-3 mb-5 bg-white rounded g-3  m-lg-3">
+        <div class="portfolio-box ">
+          <img src="./images/portfolio/proj1.ff0f1c25935312ff814f.jpeg" alt="portfolio 2 image" title="portfolio 2 picture" class="img-fluid">
+          <div class="portfolio-info">
+            <div class="caption">
+              <h4>Urban Company</h4>
+            </div>
+          </div>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title text-center " >
+            <img src="./images/portfolio/html.png" width="40px" alt="" srcset="">
+            <img src="./images/portfolio/CSS3_logo.svg.png"  width="40px" alt="" srcset="">
+            <img src="./images/portfolio/react.png"  width="40px" alt="" srcset="">
+            <img src="./images/portfolio/git.png" alt="" srcset=" "  width="40px">
+          </h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in card has supporting text below as a natural lead-in to to additional content.</p>
+        </div>
+        <button style="background-color: #CB2DE6; color: white; border:none; padding: 10px;">Check it Out!</button>
+          <button style="background-color: #CB2DE6; color: white; border:none; padding: 10px;"> <a href="https://github.com/abhay3366/-hysterical-current-2318/tree/main/urban" style="color: white; text-decoration: none;">Github Link</a></button>
+      </div>
 
-  <!-- START THE CONTENT FOR THE SERVICES  -->
-  <div class="container">
-    <!-- START THE MARKETING CONTENT  -->
-    
+    </div>
   </div>
 </section>
 
 
 <!-- ////////////////////////////////////////////////////////////////////////////////////////////////
-                               START SECTION 5 - THE TESTIMONIALS  
+                               START SECTION 5 - LANGUAGE 
 /////////////////////////////////////////////////////////////////////////////////////////////////////-->
 <section id="testimonials" class="testimonials">
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,96L48,128C96,160,192,224,288,213.3C384,203,480,117,576,117.3C672,117,768,203,864,202.7C960,203,1056,117,1152,117.3C1248,117,1344,203,1392,245.3L1440,288L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
@@ -219,18 +231,18 @@
 <!-- /////////////////////////////////////////////////////////////////////////////////////////////////
                        START SECTION 6 - THE FAQ 
 //////////////////////////////////////////////////////////////////////////////////////////////////////-->
-<section id="faq" class="faq">
+<!-- <section id="faq" class="faq">
   <div class="container">
     <div class="row text-center">
       <h1 class="display-3 fw-bold text-uppercase">faq</h1>
       <div class="heading-line"></div>
       <p class="lead">frequently asked questions, get knowledge befere hand</p>
     </div>
-    <!-- ACCORDION CONTENT  -->
+  
     <div class="row mt-5">
       <div class="col-md-12">
         <div class="accordion" id="accordionExample">
-          <!-- ACCORDION ITEM 1 -->
+          
           <div class="accordion-item shadow mb-3">
             <h2 class="accordion-header" id="headingOne">
               <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -243,7 +255,7 @@
               </div>
             </div>
           </div>
-             <!-- ACCORDION ITEM 2 -->
+             
           <div class="accordion-item shadow mb-3">
             <h2 class="accordion-header" id="headingTwo">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -256,7 +268,7 @@
               </div>
             </div>
           </div>
-             <!-- ACCORDION ITEM 3 -->
+             
           <div class="accordion-item shadow mb-3">
             <h2 class="accordion-header" id="headingThree">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -269,7 +281,7 @@
               </div>
             </div>
           </div>
-             <!-- ACCORDION ITEM 4 -->
+             
           <div class="accordion-item shadow mb-3">
             <h2 class="accordion-header" id="headingFour">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
@@ -286,7 +298,7 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
 <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////
                               START SECTION 7 - THE PORTFOLIO  
@@ -294,107 +306,54 @@
 
 <section id="portfolio" class="portfolio">
   <div class="container">
-    <div class="row text-center mt-5">
-      <h1 class="display-3 fw-bold text-capitalize">Our Project</h1>
-      <div class="heading-line"></div>
-      <p class="lead text-center">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.  Sint porro temporibus distinctio.
-      </p>
+    <div class="row ">
+      
+      <img src="./images/portfolio/git5.5 (1).png" class="img-fluid m-auto h-25" alt="Responsive image" style=""/>
     </div>
-    <!-- FILTER BUTTONS  -->
-    <!-- <div class="row mt-5 mb-4 g-3 text-center">
-      <div class="col-md-12">
-        <button class="btn btn-outline-primary" type="button">All</button>
-        <button class="btn btn-outline-primary" type="button">websites</button>
-        <button class="btn btn-outline-primary" type="button">design</button>
-        <button class="btn btn-outline-primary" type="button">mockup</button>
-      </div>
-    </div> -->
-
-    <!-- START THE PORTFOLIO ITEMS  -->
     <div class="row">
-      <div class="col-lg-5 col-md-4  text-center shadow p-3 mb-5 bg-white rounded  m-lg-3 ">
-        <div class="portfolio-box ">
-          <img src="./images/portfolio/myglm.2df321d8b28f90aace7e.jpeg" alt="portfolio 1 image" title="portfolio 1 picture" class="img-fluid">
-          <div class="portfolio-info">
-            <div class="caption">
-              <h4>MyGlamm websites</h4>
-              <!-- <p>category project</p> -->
-            </div>
-          </div>
-        </div>
-        <div class="card-body">
-          <h5 class="card-title ">
-            <img src="./images/portfolio/html.png" width="40px" alt="" srcset="">
-            <img src="./images/portfolio/CSS3_logo.svg.png"  width="40px" alt="" srcset="">
-            <img src="./images/portfolio/javascript-icon-png-23.jpg"  width="40px" alt="" srcset="">
-            <img src="./images/portfolio/git.png" alt="" srcset=" "  width="40px">
-          </h5>
-          <p class="card-text ">This card has supporting text below as a natural lead-in to additional content.This card has supporting text below as a natural lead-in to additional content.</p>
-        </div>
-        <button style="background-color: #CB2DE6; color: white; border:none; padding: 10px;">Check it Out!</button>
-          <button style="background-color: #CB2DE6; color: white; border:none; padding: 10px;">Github Link</button>
+      <div class="d-flex justify-content-center ">
+        <p dir="auto" class="shadow"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/f6c9764734418205fe36c3a94aa5037d839827520f54e7cbcd6ea47e24770146/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170692f746f702d6c616e67733f757365726e616d653d6162686179333336362673686f775f69636f6e733d74727565266c6f63616c653d656e266c61796f75743d636f6d70616374"><img align="left" src="https://camo.githubusercontent.com/f6c9764734418205fe36c3a94aa5037d839827520f54e7cbcd6ea47e24770146/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170692f746f702d6c616e67733f757365726e616d653d6162686179333336362673686f775f69636f6e733d74727565266c6f63616c653d656e266c61796f75743d636f6d70616374" alt="abhay3366" data-canonical-src="https://github-readme-stats.vercel.app/api/top-langs?username=abhay3366&amp;show_icons=true&amp;locale=en&amp;layout=compact" style="max-width: 100%;"></a></p></div>
       </div>
-
-      <div class="col-lg-5 col-md-4 shadow text-center p-3 mb-5 bg-white rounded g-3  m-lg-3">
-        <div class="portfolio-box ">
-          <img src="./images/portfolio/proj1.ff0f1c25935312ff814f.jpeg" alt="portfolio 2 image" title="portfolio 2 picture" class="img-fluid">
-          <div class="portfolio-info">
-            <div class="caption">
-              <h4>Urban Company</h4>
-              <!-- <p>category project</p> -->
-            </div>
-          </div>
-        </div>
-        <div class="card-body">
-          <h5 class="card-title text-center " >
-            <img src="./images/portfolio/html.png" width="40px" alt="" srcset="">
-            <img src="./images/portfolio/CSS3_logo.svg.png"  width="40px" alt="" srcset="">
-            <img src="./images/portfolio/react.png"  width="40px" alt="" srcset="">
-            <img src="./images/portfolio/git.png" alt="" srcset=" "  width="40px">
-          </h5>
-          <p class="card-text">This card has supporting text below as a natural lead-in card has supporting text below as a natural lead-in to to additional content.</p>
-        </div>
-        <button style="background-color: #CB2DE6; color: white; border:none; padding: 10px;">Check it Out!</button>
-          <button style="background-color: #CB2DE6; color: white; border:none; padding: 10px;">Github Link</button>
+      <div class="d-flex gap-3 mb-5">
+        <div><p dir="auto" class="shadow"> <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/f6254fc8e13c0981169cbdbec877d792be7615d511bafb26ac8971dc00a73a6d/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170693f757365726e616d653d6162686179333336362673686f775f69636f6e733d74727565266c6f63616c653d656e"><img align="center" src="https://camo.githubusercontent.com/f6254fc8e13c0981169cbdbec877d792be7615d511bafb26ac8971dc00a73a6d/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170693f757365726e616d653d6162686179333336362673686f775f69636f6e733d74727565266c6f63616c653d656e" alt="abhay3366" data-canonical-src="https://github-readme-stats.vercel.app/api?username=abhay3366&amp;show_icons=true&amp;locale=en" style="max-width: 100%;"></a></p></div>
+        <div><p dir="auto" class="shadow"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/cdbadda5e134a6596eb9d0ba03caa5a788a0b1039ae748cf27ad267b3d297236/68747470733a2f2f6769746875622d726561646d652d73747265616b2d73746174732e6865726f6b756170702e636f6d2f3f757365723d61626861793333363626"><img align="center" src="https://camo.githubusercontent.com/cdbadda5e134a6596eb9d0ba03caa5a788a0b1039ae748cf27ad267b3d297236/68747470733a2f2f6769746875622d726561646d652d73747265616b2d73746174732e6865726f6b756170702e636f6d2f3f757365723d61626861793333363626" alt="abhay3366" data-canonical-src="https://github-readme-streak-stats.herokuapp.com/?user=abhay3366&amp;" style="max-width: 100%;"></a></p></div>
       </div>
-
     </div>
   </div>
 </section>
 
 <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////
-              START SECTION 8 - GET STARTED  
+              START SECTION 8 - CONNECTE WITH US  
 /////////////////////////////////////////////////////////////////////////////////////////////////////////-->
 <section id="contact" class="get-started">
   <div class="container">
     <div class="row text-center">
       <h1 class="display-3 fw-bold text-capitalize">Get started</h1>
       <div class="heading-line"></div>
-      <p class="lh-lg">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero illum architecto modi.
-      </p>
+      
     </div>
 
     <!-- START THE CTA CONTENT  -->
     <div class="row text-white">
       <div class="col-12 col-lg-6 gradient shadow p-3">
         <div class="cta-info w-100">
-          <h4 class="display-4 fw-bold">100% Satisfaction Guaranteed</h4>
+          <h4 class="display-5 fw-bold">Let's get in touch</h4>
           <p class="lh-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam alias optio minima, tempore architecto sint ipsam dolore tempora facere laboriosam corrupti!
+            We are ready for work just contact
           </p>
-          <h3 class="display-3--brief">What will be the next step?</h3>
-          <ul class="cta-info__list">
-            <li>We'll prepare the proposal.</li>
-            <li>we'll discuss it together.</li>
-            <li>let's start the discussion.</li>
+          <!-- <h3 class="display-3--brief">What will be the next step?</h3> -->
+          <ul class="mb-lg-5" style="list-style: none; ">
+           
+            <li class="mb-lg-5"> <img src="./images//portfolio/location (1).png" alt="" srcset=""></i><span>Address:  Robertsgan,Sonebhadra <br> <span class="px-5">Uttar Pardesh, Pincode: 232111</span></span></li>
+            <li class="mb-lg-5"><img src="./images//portfolio/phone.png" alt=""> <span  class="px-3"> <a href="tel:+6393216862" style="color: white">6393216862</a></span></li>
+            <li class="mb-lg-5"><img src="./images//portfolio/gmail.png" alt=""><span  class="px-3"><a href="mailto:tabhaykant2@gmail.com" style="color: white;">tabhaykant2.com</a></span></li>
+            <li class="mb-lg-5"><img src="./images//portfolio/linkdine.png" alt=""><a href="https://www.linkedin.com/in/abhaytiwari3366/"><span style="color: white;">https://www.linkedin.com/in/abhaytiwari3366/</span></a></li>
           </ul>
         </div>
       </div>
       <div class="col-12 col-lg-6 bg-white shadow p-3">
         <div class="form w-100 pb-2">
-          <h4 class="display-3--title mb-5">start your project</h4>
+          <h4 class="display-3--title mb-5">Get in touch</h4>
           <form action="#" class="row">
             <div class="col-lg-6 col-md mb-3">
               <input type="text" placeholder="First Name" id="inputFirstName" class="shadow form-control form-control-lg">
@@ -421,146 +380,16 @@
   </div>
 </section>
 
-<!-- ///////////////////////////////////////////////////////////////////////////////////////////
-                           START SECTION 9 - THE FOOTER  
-///////////////////////////////////////////////////////////////////////////////////////////////-->
-<footer class="footer">
-  <div class="container">
-    <div class="row">
-      <!-- CONTENT FOR THE MOBILE NUMBER  -->
-      <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
-        <div class="contact-box__icon">
-          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone-call" viewBox="0 0 24 24" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
-            <path d="M15 7a2 2 0 0 1 2 2" />
-            <path d="M15 3a6 6 0 0 1 6 6" />
-          </svg>
-        </div>
-        <div class="contact-box__info">
-          <a href="#" class="contact-box__info--title">+1 728365413</a>
-          <p class="contact-box__info--subtitle">  Mon-Fri 9am-6pm</p>
-        </div>
-      </div>  
-      <!-- CONTENT FOR EMAIL  -->
-      <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
-        <div class="contact-box__icon">
-          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail-opened" viewBox="0 0 24 24" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <polyline points="3 9 12 15 21 9 12 3 3 9" />
-            <path d="M21 9v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" />
-            <line x1="3" y1="19" x2="9" y2="13" />
-            <line x1="15" y1="13" x2="21" y2="19" />
-          </svg>
-        </div>
-        <div class="contact-box__info">
-          <a href="#" class="contact-box__info--title">info@company.com</a>
-          <p class="contact-box__info--subtitle">Online support</p>
-        </div>
-      </div>
-      <!-- CONTENT FOR LOCATION  -->
-      <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
-        <div class="contact-box__icon">
-          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-2" viewBox="0 0 24 24" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <line x1="18" y1="6" x2="18" y2="6.01" />
-            <path d="M18 13l-3.5 -5a4 4 0 1 1 7 0l-3.5 5" />
-            <polyline points="10.5 4.75 9 4 3 7 3 20 9 17 15 20 21 17 21 15" />
-            <line x1="9" y1="4" x2="9" y2="17" />
-            <line x1="15" y1="15" x2="15" y2="20" />
-          </svg>
-        </div>
-        <div class="contact-box__info">
-          <a href="#" class="contact-box__info--title">New York, USA</a>
-          <p class="contact-box__info--subtitle">NY 10012, US</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- START THE SOCIAL MEDIA CONTENT  -->
-  <div class="footer-sm" style="background-color: #212121;">
-    <div class="container">
-      <div class="row py-4 text-center text-white">
-        <div class="col-lg-5 col-md-6 mb-4 mb-md-0">
-          connect with us on social media
-        </div>
-        <div class="col-lg-7 col-md-6">
-          <a href="#"><i class="fab fa-facebook"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-github"></i></a>
-          <a href="#"><i class="fab fa-linkedin"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- START THE CONTENT FOR THE CAMPANY INFO -->
-  <div class="container mt-5">
-    <div class="row text-white justify-content-center mt-3 pb-3">
-      <div class="col-12 col-sm-6 col-lg-6 mx-auto">
-        <h5 class="text-capitalize fw-bold">Campany name</h5>
-        <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
-        <p class="lh-lg">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ex obcaecati blanditiis reprehenderit ab mollitia voluptatem consectetur?
-        </p>
-      </div>
-      <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
-        <h5 class="text-capitalize fw-bold">Products</h5>
-        <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
-        <ul class="list-inline campany-list">
-          <li><a href="#">Lorem ipsum</a></li>
-          <li><a href="#">Lorem ipsum</a></li>
-          <li><a href="#">Lorem ipsum</a></li>
-          <li><a href="#">Lorem ipsum</a></li>
-        </ul>
-      </div>
-      <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
-        <h5 class="text-capitalize fw-bold">useful links</h5>
-        <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
-        <ul class="list-inline campany-list">
-          <li><a href="#"> Your Account</a></li>
-          <li><a href="#">Become an Affiliate</a></li>
-          <li><a href="#">create an account</a></li>
-          <li><a href="#">Help</a></li>
-        </ul>
-      </div>
-      <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
-        <h5 class="text-capitalize fw-bold">contact</h5>
-        <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
-        <ul class="list-inline campany-list">
-          <li><a href="#">Lorem ipsum</a></li>
-          <li><a href="#">Lorem ipsum</a></li>
-          <li><a href="#">Lorem ipsum</a></li>
-          <li><a href="#">Lorem ipsum</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <!-- START THE COPYRIGHT INFO  -->
-  <div class="footer-bottom pt-5 pb-5">
-    <div class="container">
-      <div class="row text-center text-white">
-        <div class="col-12">
-          <div class="footer-bottom__copyright">
-            &COPY; Copyright 2021 <a href="#">Company</a> | Created by <a href="http://codewithpatrick.com" target="_blank">Muriungi</a><br><br>
-
-            Distributed by <a href="http://themewagon.com" target="_blank">ThemeWagon</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</footer>
 
 <!-- BACK TO TOP BUTTON  -->
 <a href="#" class="shadow btn-primary rounded-circle back-to-top">
   <i class="fas fa-chevron-up"></i>
 </a>
 
-
+<!-- <p align="left" dir="auto"> <a href="https://getbootstrap.com" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40" style="max-width: 100%;"> </a> <a href="https://www.w3schools.com/css/" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40" style="max-width: 100%;"> </a> <a href="https://www.w3.org/html/" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40" style="max-width: 100%;"> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40" style="max-width: 100%;"> </a> <a href="https://www.mongodb.com/" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40" style="max-width: 100%;"> </a> <a href="https://nodejs.org" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40" style="max-width: 100%;"> </a> <a href="https://reactjs.org/" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40" style="max-width: 100%;"> </a> <a href="https://www.typescriptlang.org/" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40" style="max-width: 100%;"> </a> </p> -->
+<!-- <p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/f6c9764734418205fe36c3a94aa5037d839827520f54e7cbcd6ea47e24770146/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170692f746f702d6c616e67733f757365726e616d653d6162686179333336362673686f775f69636f6e733d74727565266c6f63616c653d656e266c61796f75743d636f6d70616374"><img align="left" src="https://camo.githubusercontent.com/f6c9764734418205fe36c3a94aa5037d839827520f54e7cbcd6ea47e24770146/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170692f746f702d6c616e67733f757365726e616d653d6162686179333336362673686f775f69636f6e733d74727565266c6f63616c653d656e266c61796f75743d636f6d70616374" alt="abhay3366" data-canonical-src="https://github-readme-stats.vercel.app/api/top-langs?username=abhay3366&amp;show_icons=true&amp;locale=en&amp;layout=compact" style="max-width: 100%;"></a></p>
+<p dir="auto"> <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/f6254fc8e13c0981169cbdbec877d792be7615d511bafb26ac8971dc00a73a6d/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170693f757365726e616d653d6162686179333336362673686f775f69636f6e733d74727565266c6f63616c653d656e"><img align="center" src="https://camo.githubusercontent.com/f6254fc8e13c0981169cbdbec877d792be7615d511bafb26ac8971dc00a73a6d/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170693f757365726e616d653d6162686179333336362673686f775f69636f6e733d74727565266c6f63616c653d656e" alt="abhay3366" data-canonical-src="https://github-readme-stats.vercel.app/api?username=abhay3366&amp;show_icons=true&amp;locale=en" style="max-width: 100%;"></a></p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/cdbadda5e134a6596eb9d0ba03caa5a788a0b1039ae748cf27ad267b3d297236/68747470733a2f2f6769746875622d726561646d652d73747265616b2d73746174732e6865726f6b756170702e636f6d2f3f757365723d61626861793333363626"><img align="center" src="https://camo.githubusercontent.com/cdbadda5e134a6596eb9d0ba03caa5a788a0b1039ae748cf27ad267b3d297236/68747470733a2f2f6769746875622d726561646d652d73747265616b2d73746174732e6865726f6b756170702e636f6d2f3f757365723d61626861793333363626" alt="abhay3366" data-canonical-src="https://github-readme-streak-stats.herokuapp.com/?user=abhay3366&amp;" style="max-width: 100%;"></a></p> -->
 
    
     <script src="assets/vendors/js/glightbox.min.js"></script>
